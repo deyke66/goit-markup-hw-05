@@ -593,10 +593,10 @@ gap: 30px;
     top: 0;
     left: 0;
     transform: translateY(100%);
-    opacity: 0;
+    /* opacity: 0; */
     overflow: hidden;
     display: block;
-    width: 100%;
+    width: 101%;
     height: 294px;
     background-color: var(--portfolio-desc-bckgr);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -751,11 +751,11 @@ gap: 30px;
     
 }
 .backdrop.is-hidden .modal {
-    transform: scale(0.5) translate(-50%, -50%);
+    transform: scale(0.9) translate(-50%, -50%);
 }
 .backdrop.is-hidden {
     opacity: 0;
-    visibility: hidden;
+    
     pointer-events: none;
 
 }
